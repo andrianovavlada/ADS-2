@@ -50,7 +50,7 @@ double cosn(double x, uint16_t count) {
     double y = 0;
     while (count != 1) {
         y = y + pown(-1, count - 1) * calcItem(x, 2 * count - 2);
-        count--;   
+        count--;
     }
     y += 1;
     return y;
